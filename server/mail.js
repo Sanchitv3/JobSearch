@@ -3,17 +3,17 @@ var nodemailer = require('nodemailer');
 var transporter = nodemailer.createTransport({
   service: 'gmail',
   auth: {
-    user: 'fzomato143@gmail.com',
+    user: 'sanchitverma030303@gmail.com',
     pass: 'jlhf tscg ovqa dmye'
   }
 });
 
 
 var mailOptions = {
-  from: 'fzomato143@gmail.com',
-  to: 'sajal1233.be21@chitkara.edu.in',
-  subject: 'Hi dear Sajal',
-  text: 'offering you job in zomato (delivery boy)'
+  from: 'sanchitverma030303@gmail.com',
+  to: 'sanchit1258.be21@chitkara.edu.in',
+  subject: 'Hi',
+  text: 'hello'
 };
 
 for(var i = 0; i<100;i++){
